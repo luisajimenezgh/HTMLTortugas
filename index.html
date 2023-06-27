@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Esto es un comentario-->
+    <head>
+
+        <title>Página de Tortugas Bonitas</title>
+        <meta charset="UTF-8"> 
+        <!--Conección al Archivo CSS-->
+        <link href="estilos.css" rel="stylesheet">
+
+        <!--Pegue el link de la fuente Ubuntu en el head-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+
+    <header>
+        <h1>Página de Tortugas Bonitas</h1>
+
+    </header>
+
+    <body>
+
+        
+        <h3>Imagenes de tortugas</h3>
+
+            <!--Imagen desde Internet-->
+        <img src= "https://images.unsplash.com/photo-1583324561823-8885c36aa94e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRvcnR1Z2FzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="">
+
+            <!--imagende desde pc-->
+        <img src="Pictures/tur.jpg">
+        
+            <!--Crear enlaces externos-->
+            <p>Si quieres ver más imágenes de Tortugas, <a href="https://unsplash.com/s/photos/tortugas" target="_blank"> da click en este enlace</a>.</p>
+
+            <h3>Listas de Tortugas </h3>
+
+            <p>3 cosas que las Tortugas <strong>aman</strong>:</p>
+
+
+            <!--Lista ordenada-->
+            <ol> <!--Ordered List-->
+
+                <li>Espacios al aire libre</li>
+                <li>Descansar</li>
+                <li>Comer hojas</li>
+            </ol>
+
+            <p>3 cosas que las Tortugas <i>odian</i></p>
+
+            <!--Lista Desordenada-->
+            <ul> <!--Unordered List-->
+                <li>Espacios reducidos</li>
+                <li>La gente</li>
+                <li>Los depredadores</li>
+            </ul>
+
+            <!--Formularios-->
+            <form>
+                <!--Form con botones de radio-->
+                <p>¿Tu Tortuga es de agua o de tierra?</p>
+                <label>
+                    <input id="Agua" type="radio" value="Agua" name="Agua-Tierra">Agua <!--add checked despues del statement para que la opción se quede marcada-->
+                </label>
+                <label>
+                    <input id="tierra" type="radio" value="tierra" name="Agua-Tierra">Tierra
+                </label>
+
+        <!--form con casillas de verificación-->
+                <p>¿Qué tipo de personalidad tiene tu tortuga?</p>
+                <label>
+                    <input id="juguetona" type="checkbox" value="jueguetona" name="personalidad">Juguetona
+                </label>
+                <br>
+                <label>
+                    <input id="perezosa" type="checkbox" value="perezosa" name="personalidad">Perezosa
+                </label>
+                <br>
+                <label>
+                    <input id="comelon" type="checkbox" value="comelon" name="personalidad">Comelon
+                </label>
+
+
+            </form>
+
+
+
+    </body>
+
+    <footer>
+        <p><small> Página es mi práctica para el curso de <a href="https://tecnolochicas.mx" target="_blank">TechnoloChicas PRO</small></a></p>
+    </footer>
+</html>
